@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Flashcards</title>
+</head>
+<body>
+<nav>
+<link href='style.css' rel='stylesheet' type='text/css'>
+<header>
+    <a href="home.html" class="btn">Home</a>
+    <a href="planner.html" class="btn">Play</a>
+    <a href="index.html" class="btn">Study</a>
+    <a href="timer.html" class="btn">Time</a>
+    <a href="chat.html" class="btn">Inspire</a>
+</header>
+</nav>
+  <p>
+    <div class="container">
+      <div class="nav">
+        <h1>Flashcards</h1>
+        <div>
+          <button id="showCreateCardBox">New Card</button>
+          <button id="delFlashcards">Del Cards</button>
+        </div>
+      </div> 
+    </div>
+  </pr>
+  
+  <div class="container">
+    <div class="create-card">
+      <h2 style="color: black;text-align: center;">Create Flashcard</h2>
+      <label for="question">Question</label>
+      <textarea id="question" maxlength="280"></textarea>
+      <label for="answer" maxlength="280">Answer</label>
+      <br>
+      <textarea id="answer"></textarea>
+      <div>
+        <button id="add-flashcard">Save</button> <button id="hideCreateCardBox">Close</button>
+      </div>
+    </div>
+    <div class="flashcards"></div>
+  </div>
+    
+  <script src="script.js"></script>
+</body>
+</html>
